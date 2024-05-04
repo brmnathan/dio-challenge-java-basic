@@ -2,13 +2,12 @@ public class Account {
     private int number;
     private String clientName;
     private String agency;
-    private Double balance;
+    private Double balance = 0.0;
 
-    public Account(int number, String clientName, String agency, Double balance) {
+    public Account(int number, String clientName, String agency) {
         this.number = number;
         this.clientName = clientName;
         this.agency = agency;
-        this.balance = balance;
     }
 
     public int getNumber() {
@@ -50,10 +49,10 @@ public class Account {
     @Override
     public String toString() {
         return ("Hello " + clientName +
-                ", thank you for joining our institution, " +
-                "your bank agency is " + agency +
-                ", account " + number +
-                "and your balance $" + balance +
-                " is already available for withdraw and deposit.");
+                ", thank you for joining our institution." +
+                "\nAgency: " + agency +
+                "\nAccount: " + number +
+                "\nBalance: $" + balance +
+                "\nYour account is already available for withdraw and deposit.");
     }
 }

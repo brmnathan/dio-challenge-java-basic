@@ -1,32 +1,20 @@
-# DIO - Trilha Java Básico
+# DIO - Basic Java Track
 
-## Sintaxe - Desafio
+## Syntax - Challenge
 
-Exercício do conteúdo apresentado no módulo de Sintaxe codificando o seguinte cenário.
+Exercise based on the content presented in the Syntax module, coding the following scenario.
+1. Create the Account project that will receive data via the terminal containing bank account characteristics as attributes below:
 
-1. Crie o projeto `Account` que receberá dados via terminal contendo as características de conta em banco conforme atributos abaixo:
-2. Dentro do projeto, crie a classe `Program.java` para realizar toda a codificação do nosso programa.
-
-###### Revise sobre regras de declaração de variáveis
-
-| Atributo  | Tipo     | Exemplo   
-| --------- | ---------| ------- 
-| Numero    | Inteiro  | 1021 
-| Agencia   | Texto    | 067-8
-| Nome Cliente | Texto    | MARIO ANDRADE
-| Saldo | Decimal |237.48
+| Attribute   | Type   |  
+|-------------|--------|
+| Number      | int    |
+| Agency      | String |
+| Client Name | String |
+| Balance     | Double |
 
 
-###### Revise sobre terminal, main args e a classe Scanner
-2. Permita que os dados sejam inseridos via terminal sendo que o usuário receberá a mensagem de qual informação será solicitada, exemplo:
+2. Allow data to be entered via the terminal, where the user will receive a message requesting the information.
 
-* Programa: "Por favor, digite o número da Agência !"
-* Usuário: 1021 *(depois ENTER para o próximo campo)*
+3. After all information has been entered, the system should display the account information.
 
-###### Revise sobre concatenação e classe String com método concat
 
-3. Depois de todas as informações terem sido inseridas, o sistema deverá exibir a seguinte mensagem:
-
-*"Olá [Nome Cliente], obrigado por criar uma conta em nosso banco, sua agência é [Agencia], conta [Numero] e seu saldo [Saldo] já está disponível para saque".*
-
-Os campos em [ ] devem ser alterados pelas informações que forem inseridas pelos usuários.
